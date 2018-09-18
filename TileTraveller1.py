@@ -6,8 +6,10 @@
 #Bæti við þeim upplýsingum að "Veggir" séu á ákveðnum stöðum
 #Skilgreini að ekki sé hægt að fara í gegnum þá með if elif 
 
-x = 1
-y = 1
+x = 1.0
+y = 1.0
+prufustrengur = str(x) + str(y)
+print(prufustrengur)
 norður = "(N)orth "
 austur = "(E)ast "
 suður = "(S)outh "
@@ -15,11 +17,5 @@ vestur = "(W)est "
 eða = "or "
 punktur = "."
 attir = ""
-attir = norður + eða + austur + eða + suður + punktur
-attir -= austur
-print(attir)
-while (x != 3) and (y != 1):
-    if x == 1:
-        attir = norður + eða + austur + eða + suður, punktur
-
-    
+badspots = ""
+#while (x != 3.0) and (y != 1.0):
